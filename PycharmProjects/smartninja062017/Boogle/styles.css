@@ -1,0 +1,48 @@
+body {
+background-color: LightCyan;
+margin: 50px;
+}
+
+.search-block {
+width: 450px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.ask-block {
+width: 505px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 25px;
+posotion: center;
+}
+
+.ask {
+font-size: 16px;
+margin: 5px;
+display: inline-block;
+}
+
+.boogle {
+margin: 0 auto;
+width: 200px;
+}
+
+#booglepic {
+width: 225px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+position: center;
+}
+
+
+#booglesearch {
+  position: center;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,18 @@
+p {
+  color: #4286f4;
+}
+
+.image {
+  border: 6px black dottet;
+  padding: 5px 1px 10px;
+  margin: 10px 1px;
+}
+
+.image:hover {
+  border: 6px red solid;
+}
+
+body {
+background-image: url("background.JPG");
+}
+

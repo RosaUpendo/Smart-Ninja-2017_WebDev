@@ -1,0 +1,31 @@
+h1, h2  {
+ color: #78e8a8; font-family: "Slabo 27px";
+}
+
+.class1 {
+font-family: Spectral, Times, serif;
+margin-left: 15px;
+}
+
+
+.image {
+  padding: 30px 5px 30px;
+  margin: 50px 100px;
+}
+
+.image:hover {
+  border: 6px #204219;
+}
+
+body {
+color: #c7fcde;
+}
+
+.header {
+  background-image: url("backgroundpalmtrees.JPG");
+  height: 800px;
+}
+
+p {
+font-size: 18px;
+}

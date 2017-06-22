@@ -1,0 +1,120 @@
+body {
+font-family: "Indie Flower", Arial, sans-serif; /* ?font-family doesn't change to Indie Flower? */
+}
+
+.logo-block {
+width: 500px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.logo {
+width: 100px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#googleimg {
+width: 90px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 25px;
+}
+
+.title-block {
+font-size: 26px;
+font-weight: 50px;
+display: block;
+}
+
+#login {
+width: 350px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.signin-block {
+ text-align: center;
+}
+
+.signin {
+width: 250px;
+height: 250px;
+padding: 15px;
+margin-bottom: 25px;
+margin-left: auto;
+margin-right:auto;
+background-color: WhiteSmoke;
+}
+
+#profile {
+margin-bottom: 30px;
+margin-top: 40px;
+}
+
+.login-text {
+font-size: 16px;
+font-weight: 50px;
+display: block;
+}
+
+.text {
+font-weight: normal;
+}
+
+.typein {
+position: relative;
+font-size: 14px;
+height: auto;
+padding: 8px;
+background-color: #f4f9b6;
+}
+
+#button {
+width: 205px;
+margin-bottom: 8px;
+margin-top: 5px;
+background-color: Blue;
+color: White;
+font-style: Bold;
+}
+
+.oneaccount-block {
+width: 500px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.bluetext {
+color: Blue;
+font-size: 11px;
+}
+
+#createaccount {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 80px;
+margin-bottom: 25px;
+}
+
+#accounteverything {
+width: 210px;
+position: center;
+display: block;
+margin: 0 auto;
+font-size: 11px;
+}
+
+#oneaccountall {
+width: 200px;
+margin-left: auto;
+margin-right: auto;
+position: center;
+display: block;
+}
+
+#need-help {
+margin-left: 125px;
+color: Blue;
+}
