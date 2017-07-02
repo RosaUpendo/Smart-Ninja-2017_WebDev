@@ -22,8 +22,8 @@ color: #c7fcde;
 }
 
 .header {
-  background-image: url("backgroundpalmtrees.JPG");
   height: 800px;
+  background-color: lavender;
 }
 
 p {

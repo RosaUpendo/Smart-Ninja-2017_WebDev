@@ -1,0 +1,186 @@
+body {font-family: "Dosis", sans-serif;} /*why the font doesn't change? */
+
+.carousel-inner {
+height: 500px;
+}
+
+.carousel-inner img {
+margin: auto;
+height: 500px;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background: none !important;
+ }
+
+.thumbnail-container {
+height: 525px;
+width: 1300px;
+margin: 15px;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+position: center;
+}
+
+
+.thumbnail {
+margin: 0 auto;
+margin-top: 20px;
+width: 250px; height: 400px;
+position: relative;
+}
+
+h1 {
+text-align: center;
+}
+
+
+
+.appointment-box {
+height: 500px;
+width: 1300px;
+margin: 25px;
+border-bottom: 1px solid black;
+position: center;
+}
+
+.faq-box {
+height: 525px;
+width: 1300px;
+margin: 15px;
+border-bottom: 1px solid black;
+position: center;
+}
+
+.info-box {
+height: 300px;
+width: 1300px;
+margin: 15px;
+display: inline-block;
+}
+
+.image-popup {
+margin-left: 120px;
+}
+
+div.container1 {
+margin: 80px;
+width: 450px;
+height: 283px;
+margin-top: 0;
+display: inline-block;
+}
+
+div.container2 {
+margin: 80px;
+margin-top: 30px;
+width: 450px;
+height: 525px;
+display: inline-block;
+float: right;
+}
+
+.glyphicon {
+float: right;
+margin: 20px;
+}
+
+table.table-bordered {
+width: 450px;
+display: inline-block;
+margin: 0 auto;
+background-color: #f0e3f7;
+}
+
+tbody {
+height: 160px;
+width: 210px;
+}
+
+thead {
+width: 210px;
+}
+
+tr {
+height: 35px;
+}
+
+div.container {
+margin-top: 50px;
+width: 1300px;
+display: inline-block;
+}
+
+
+h4 {
+margin-bottom: 50px;
+margin-left: 10px;
+}
+
+h5 {
+margin-bottom: 50px;
+margiin: 20px;
+}
+
+div.container3 {
+width: 80%;
+margin: 80px;
+border: 1px solid #eccffc;
+}
+
+p {
+margin: 20px;
+}
+
+.answere-box {
+margin: 10px;
+}
+
+
+.control-label.col-md-3 {
+margin: 15px;
+}
+
+div.contact {
+height: 250px;
+width: 200px;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 70px;
+display: inline-block;
+position: relative;
+float: left;
+}
+
+div.navi {
+height: 250px;
+width: 200px;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 70px;
+display: inline-block;
+position: relative;
+float: right;
+}
+
+div.end-img {
+height: 250px;
+width: 200px;
+margin-left: 150px;
+margin-right: 150px;
+margin-top: 15px;
+display: inline-block;
+position: relative;
+}
+
+.comm {
+margin-top: 20px;
+}
+
+.navbar.navbar-default {
+background-color: #f0e3f7;
+}
+
+div.input-group.addon {
+background-color: #f0e3f7;
+}
