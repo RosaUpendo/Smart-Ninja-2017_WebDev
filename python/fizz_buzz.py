@@ -31,6 +31,3 @@ if more.lower() in ("y", "yes"):
 
 elif more.lower() in ("n", "no"):
     print "Good Bye, have a fizzbuzzing day!"
-
-
-
