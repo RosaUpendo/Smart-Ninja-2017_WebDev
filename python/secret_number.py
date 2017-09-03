@@ -3,7 +3,7 @@
 import random
 
 def main():
-    secret_number = random.randint(7,7)
+    secret_number = random.randint(7,77)
 
 
     while True:
