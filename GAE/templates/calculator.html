@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CALCULATOR</title>
+</head>
+<body>
+
+<h1>What can I calculate for your lazy human brain?</h1>
+
+<form method="post">
+
+<input name="first_input" type="number" required>
+
+<select name="calculation_choice">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+</select>
+
+    <input name="second_input" type="number" required>
+    <button type="submit">Calculate this!</button>
+
+<p> {{output}} </p>
+</form>
+
+
+
+</body>
+</html>
