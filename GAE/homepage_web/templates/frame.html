@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pablo Hedgehog</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- JavaScript files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+
+    <title>{% block title %} {% endblock title %}</title>
+
+</head>
+<body>
+
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Pablo the amazingly hungry Hedgehog</a>
+    </div>
+    <ul class="nav navbar-nav" class="nav navbar-nav navbar-right">
+      <li ><a href="/">Home</a></li>
+      <li><a href="/about_me">About</a></li>
+      <li><a href="/my_projects">Photo Gallery</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li><a href="/links">Links</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li href="https://www.facebook.com/rosaupendo"><i class="fa fa-facebook-official fa-3x"></i></li>
+      <li href="https://www.instagram.com/pablo_hedge/?hl=de"><i class="fa fa-instagram fa-3x"></i></li>
+    </ul>
+  </div>
+</nav>
+
+ {% block content %} {% endblock content %}
+
+</body>
+</html>
