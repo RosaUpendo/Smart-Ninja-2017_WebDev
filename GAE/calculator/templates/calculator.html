@@ -10,19 +10,19 @@
 
 <form method="post">
 
-<input name="first_input" type="number" required>
+<input name="first" type="number" required>
 
-<select name="calculation_choice">
+<select name="calculation">
         <option value="+">+</option>
         <option value="-">-</option>
         <option value="*">*</option>
         <option value="/">/</option>
 </select>
 
-    <input name="second_input" type="number" required>
+    <input name="second" type="number" required>
     <button type="submit">Calculate this!</button>
 
-<p> {{output}} </p>
+<p>The number you are looking for is: {{calculate}} </p>
 </form>
 
 
