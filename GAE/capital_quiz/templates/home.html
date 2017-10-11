@@ -1,0 +1,19 @@
+{% extends "frame.html" %}
+
+{% block title %}GUESS THE CAPITAL{% endblock title %}
+
+{% block page_content %}
+
+<img src="{{ capital.pic }}" width="600px">
+
+<h1>Do you know the capital of beautiful {{ capital.country }}?</h1>
+
+<form action="/end" method="post">
+    <p>Your guess:
+        <input type="text" name="guess">
+        <input type="hidden" value="{{ capital.country }}" name="country">
+        <button>Submit guess!</button>
+    </p>
+</form>
+
+{% endblock page_content %}

@@ -1,0 +1,16 @@
+{% extends "frame.html" %}
+
+{% block title %}YOUR GUESS{% endblock title %}
+
+{% block page_content %}
+
+{% if fin %}
+    <img src="{{ capital.pic }}" width="600px">
+    <p>Yes, genius! {{ c.capital }} is the capital of {{ c.country }}!</p>
+{% else %}
+    <p>You didnt't get that one right. The capital of {{ c.country }} is {{ c.capital }}!</p>
+{% endif %}
+
+<p><a href="/">Try again!</a></p>
+
+{% endblock page_content %}
