@@ -57,13 +57,13 @@ class EndHandler(BaseHandler):
 
         capitals = setup_data()
         for c in capitals:
-            if c.capital == country:
+            if c.country ==  country:
                 if c.capital.lower() == guess.lower():
                     fin = True
                 else:
                     fin = False
 
-                return self.render_template("end.html", params={"fin":fin, "c": c})
+                return self.render_template("end.html", params={"fin":fin, "c":c})
 
 
 app = webapp2.WSGIApplication([
