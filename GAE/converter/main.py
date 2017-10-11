@@ -43,6 +43,7 @@ class Converter(BaseHandler):
             convert_2 = "kilometers"
         elif convert_1 == "km":
             second = first * 0.621
+            convert_2 = "miles"
 
         return self.render_template("fin.html", params={"first":first, "second":second, "con_1": convert_1, "con_2":convert_2})
 
